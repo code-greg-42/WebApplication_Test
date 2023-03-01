@@ -2,9 +2,9 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Provide sufficient contrast against white background */
@@ -13,26 +13,20 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .border-top {
@@ -68,4 +62,36 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+body {
+    background-color: rgb(42,42,42);
+    color: azure;
+}
+
+#mid-line {
+    background-color:azure;
+}
+
+#ani-start {
+    background-color: darkslategray;
+    color: azure;
+    border: black solid 2px;
+    border-radius: 5px;
+    width: 200px;
+    height: 75px;
+    position: absolute;
+}
+
+#ani-start:hover {
+    background-color: darkgray;
+    color: black;
+    }
+
+#ani-container {
+    margin-left:25%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display:flex;
 }
